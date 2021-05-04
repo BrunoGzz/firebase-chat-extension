@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/coupon.css">
+	<script src="js/fontawesome.js"></script> 
+	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+</head>
+<body>
+	<div id="container_charge">
+		<div id="charge"></div>
+	</div>
+	<div id="container">
+		<div id="chat-top">
+		<p id="chat-id">General</p>
+				<div id="photo_menu_div">
+			<ul id="photo_menu">
+				
+			</ul>
+		</div>
+		<img src="img/default_photo_user.png" class="user_photo" width="40" id="user_photo" title="Inicia Sesión para chatear">
+	</div>
+	<div id="main-chat">
+		<div id="messages">
+			<!--div id="container_charge1">
+				<div id="charge1"></div>
+			</div-->
+		</div>
+		</div>
+		<div id="popup_login">
+			<center>
+				<input type="text" id="email" placeholder="Correo" class="input">
+				<input type="password" id="password" placeholder="Contraseña" class="input">
+				<input type="button" id="login" value="Entrar">
+			</center>
+		</div>
+		<h1 id="alert"></h1>
+	<div id="search-wrapper">
+  		<input type="text" id="search" placeholder="¡Di Algo!" spellcheck="false" autocomplete="false" autofocus="true" title="Inicia Sesión para chatear">
+  		<button type="submit" class="btn btn-success" id="send" onsubmit="send();">
+    		<i class="fas fa-paper-plane"></i>
+		</button>
+  		<script src="js/firebase.js"></script>
+  	</div>
+  	<div id="emoji">
+  		<center>
+  		<p class="emoji" id="emoji1">😎</p>
+  		<p class="emoji" id="emoji2">🤡</p>
+  		<p class="emoji" id="emoji3">👍</p>
+  		<p class="emoji" id="emoji4">😱</p>
+  		<p class="emoji" id="emoji5">😡</p>
+  		<p class="emoji" id="emoji6">😂</p>
+  		<p class="emoji" id="emoji7">😅</p>
+  		<p class="emoji" id="emoji8">😍</p>
+  		<script src="js/emoji.js"></script>
+  		</center>
+  	</div>
+  	</div>
+
+</body>
+</html>
