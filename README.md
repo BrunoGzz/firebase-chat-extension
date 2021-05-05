@@ -6,5 +6,6 @@ Solo hay un chat general pero si te animas a intentar completar el codigo...¡Ad
 
 Requisitos para ejecutar el codigo:
  1. Crear un proyecto de firebase y añadir tu firebaseConfig
- 2. Añadir la extensión a tu navegador
+ 2. Descargar jquery y añadirlo antes de llamar a firebase.js
+ 3. Añadir la extensión a tu navegador
 
